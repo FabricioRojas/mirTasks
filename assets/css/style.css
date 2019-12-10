@@ -1,0 +1,32 @@
+code {
+    background: #f4f4f4;
+    page-break-inside: avoid;
+    font-family: monospace;
+    line-height: 1.6;
+    display: block;
+}
+.code-container{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    height: 50%;
+    position: absolute;
+    bottom: 50px;
+    width: 90%;
+}
+.code-preview{
+    overflow-x: scroll;
+    overflow-y: scroll;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+    padding: 15px;
+    width: fit-content;
+    background-color: #f4f4f4;
+    position: relative;
+    height: 98%;
+    border: 1px solid cornflowerblue;
+}8
